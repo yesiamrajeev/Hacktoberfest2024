@@ -10,6 +10,7 @@ class Subarraywith0sum {
         // code
 
         // taking input using class Scanner
+        //THIS IS A LEARNING EXPERIENCE 
         Scanner scan = new Scanner(System.in);
 
         // taking total number of testcases
