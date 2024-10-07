@@ -86,9 +86,6 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** 
 </td>
 	</tr>
 </table>
-<h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
-
-[![Stargazers over time](https://starchart.cc/yesiamrajeev/GFG-POTD.svg?variant=adaptive)](https://starchart.cc/yesiamrajeev/GFG-POTD)
 <h2 align=center> Owned by </h2>
 
 <tr><td align="center"><a href="https://github.com/yesiamrajeev"><kbd><img src="https://avatars3.githubusercontent.com/yesiamrajeev?size=100" width="100px;" alt=""/>
