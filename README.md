@@ -13,8 +13,8 @@
 <img src="https://img.shields.io/badge/hacktoberfest-2024-blueviolet" alt="Hacktober Badge"/>
  <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
  <a href="https://github.com/yesiamrajeev" ><img src="https://img.shields.io/badge/Contributions-welcome-violet.svg?style=flat&logo=git" alt="Contributions" /></a>
-<a href="https://github.com/yesiamrajeev/GFG-POTD/pulls"><img src="https://img.shields.io/github/issues-pr/yesiamrajeev/GFG-POTD" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/yesiamrajeev/GFG-POTD/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/yesiamrajeev/GFG-POTD?color=2b9348"></a>
+<a href="https://github.com/yesiamrajeev/Hacktoberfest2024/pulls"><img src="https://img.shields.io/github/issues-pr/yesiamrajeev/Hacktoberfest2024" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/yesiamrajeev/Hacktoberfest2024?color=2b9348"></a>
 
 </div>
 
@@ -81,7 +81,7 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** 
 	<tr>
 		<td>
 <a href="https://github.com/yesiamrajeev/GFG-POTD/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yesiamrajeev/GFG-POTD" />
+  <img src="https://contrib.rocks/image?repo=yesiamrajeev/Hacktoberfest2024" />
 </a>
 </td>
 	</tr>
