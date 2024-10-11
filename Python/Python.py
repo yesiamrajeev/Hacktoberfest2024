@@ -1,11 +1,36 @@
-def fibonacci(n):
-    fib_series = [0, 1]
-    for i in range(2, n):
-        next_term = fib_series[i - 1] + fib_series[i - 2]
-        fib_series.append(next_term)
-    return fib_series[:n]
+# Demonstrating Basic Data Types in Python
+# Integer
+age = 25
+print("Integer:", age)
 
-if __name__ == "__main__":
-    num_terms = int(input("Enter the number of terms for the Fibonacci series: "))
-    print(f"Fibonacci series up to {num_terms} terms:")
-    print(fibonacci(num_terms))
+# Float
+height = 5.9
+print("Float:", height)
+
+# String
+name = "John Doe"
+print("String:", name)
+
+# Boolean
+is_student = True
+print("Boolean:", is_student)
+
+# List
+fruits = ["apple", "banana", "cherry"]
+print("List:", fruits)
+
+# Tuple
+coordinates = (10.0, 20.0)
+print("Tuple:", coordinates)
+
+# Dictionary
+person = {
+    "name": "John Doe",
+    "age": 25,
+    "city": "Hyderabad"
+}
+print("Dictionary:", person)
+
+# Set
+unique_numbers = {1, 2, 3, 4, 5}
+print("Set:", unique_numbers)
