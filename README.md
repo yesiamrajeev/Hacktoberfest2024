@@ -87,6 +87,5 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** 
 	</tr>
 </table>
 <h2 align=center> Owned by </h2>
-
 <tr><td align="center"><a href="https://github.com/yesiamrajeev"><kbd><img src="https://avatars3.githubusercontent.com/yesiamrajeev?size=100" width="100px;" alt=""/>
 </tr>
