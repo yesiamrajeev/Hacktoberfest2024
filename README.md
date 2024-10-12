@@ -80,7 +80,7 @@ Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** 
 <table>
 	<tr>
 		<td>
-<a href="https://github.com/yesiamrajeev/GFG-POTD/graphs/contributors">
+<a href="https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=yesiamrajeev/Hacktoberfest2024" />
 </a>
 </td>
