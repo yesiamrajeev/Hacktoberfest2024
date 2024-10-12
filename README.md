@@ -77,15 +77,7 @@ To get approval of the pull request much quicker and faster (`Follow Me`)🚀
 
 Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** of any kind are welcome! 
 
-<table>
-  <tr>
-    <td>
-      <a href="https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=yesiamrajeev/Hacktoberfest2024" alt="Contributors to Hacktoberfest2024" />
-      </a>
-    </td>
-  </tr>
-</table>
+[![Contributors](https://contrib.rocks/image?repo=yesiamrajeev/Hacktoberfest2024)](https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors)
 
 <h2 align=center> Owned by </h2>
 <tr><td align="center"><a href="https://github.com/yesiamrajeev"><kbd><img src="https://avatars3.githubusercontent.com/yesiamrajeev?size=100" width="100px;" alt=""/>
