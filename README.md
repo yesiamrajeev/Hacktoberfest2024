@@ -31,13 +31,6 @@
 
 # How To Make Your First Pull Request
 
-
-```
-
-<div align="center">
-<h2> OR </h2>
-</div>
-
 ## 1. Create / Upload Your Code / Algorithms
 
 Create/Upload your code in the folder following the convention `Add Code Here`
@@ -45,9 +38,12 @@ Create/Upload your code in the folder following the convention `Add Code Here`
 - Below is `an example` to add file properly
 - You can follow up `any languages`
 
+```
 /PYTHON/<YOUR-FILERNAME>.py
-
+```
+```
 /C++/<YOUR-FILERNAME>.cpp
+```
 
 You can follow any pathway a `code` or `profile information`
 
@@ -55,28 +51,27 @@ You can follow any pathway a `code` or `profile information`
 
 ## 3. Celebrate - you've done your first pull request!!
 
-'''
-Always make more than 4 pull requests.
-Let's say you have made only 4 pull requests to different projects,
-but one project is excluded from hackoctoberfest event then your pull request will not be counted and 
-then you have the remaining 3 valid pull requests if these projects are not excluded.
-If you fail to make 4 pull requests then you can't get swags or t-shirts.
+- Always make more than 4 pull requests.
+- Let's say you have made only 4 pull requests to different projects,
+but one project is excluded from hackoctoberfest event then your pull request will not be counted and then you have the remaining 3 valid pull requests if these projects are not excluded.
+- If you fail to make 4 pull requests then you can't get swags or t-shirts.
 I will recommend you make a pull request to your own repo which is very very safe for you.
-Keep in mind that the repo has hacktoberfest topic.
-'''
-```
+- Keep in mind that the repo has hacktoberfest topic.
+
 
 ## + Follow Me : } Quick Approval of Pull Request
 
-```html
-'''
-To get approval of the pull request much quicker and faster (`Follow Me`)🚀
-'''
 ```
+To get approval of the pull request much quicker and faster (`Follow Me`)🚀
+```
+
 <h2 align=center> ✨ Contributors </h2>
 
 Thanks go to these **Wonderful People** 👨🏻‍💻: 🚀 **Contributions** of any kind are welcome! 
+
 [![Contributors](https://contrib.rocks/image?repo=yesiamrajeev/Hacktoberfest2024&cacheBuster=456)](https://github.com/yesiamrajeev/Hacktoberfest2024/graphs/contributors)
+
 <h2 align=center> Owned by </h2>
+
 <tr><td align="center"><a href="https://github.com/yesiamrajeev"><kbd><img src="https://avatars3.githubusercontent.com/yesiamrajeev?size=100" width="100px;" alt=""/>
 </tr>
