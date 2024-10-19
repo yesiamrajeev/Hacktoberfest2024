@@ -27,7 +27,7 @@
 - Add your profile data in `content/participant/`
 - Add your files (`git add -A`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
 - Create a pull request
-- Star this repository
+- (Most Important) Star this repository and Follow me
 
 # How To Make Your First Pull Request
 
