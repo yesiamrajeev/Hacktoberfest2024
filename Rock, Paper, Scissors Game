@@ -1,0 +1,60 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class RockPaperScissors {
+    
+    public static void main(String[] args) {
+        // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+        // Create a Random object to generate random moves for the computer
+        Random random = new Random();
+
+        // Possible choices
+        String[] choices = {"rock", "paper", "scissors"};
+        
+        // Game introduction
+        System.out.println("Welcome to Rock, Paper, Scissors!");
+        System.out.println("Enter your move (rock, paper, or scissors). To exit the game, type 'exit'.");
+
+        while (true) {
+            // Get the player's move
+            System.out.print("Your move: ");
+            String playerMove = scanner.nextLine().toLowerCase();
+
+            // Check if the player wants to exit the game
+            if (playerMove.equals("exit")) {
+                System.out.println("Thanks for playing!");
+                break;
+            }
+
+            // Validate the player's input
+            if (!playerMove.equals("rock") && !playerMove.equals("paper") && !playerMove.equals("scissors")) {
+                System.out.println("Invalid move! Please try again.");
+                continue;
+            }
+
+            // Get the computer's move
+            int randomIndex = random.nextInt(3);  // Generate a random number between 0 and 2
+            String computerMove = choices[randomIndex];
+
+            // Print the computer's move
+            System.out.println("Computer's move: " + computerMove);
+
+            // Determine the winner
+            if (playerMove.equals(computerMove)) {
+                System.out.println("It's a tie!");
+            } else if ((playerMove.equals("rock") && computerMove.equals("scissors")) ||
+                       (playerMove.equals("paper") && computerMove.equals("rock")) ||
+                       (playerMove.equals("scissors") && computerMove.equals("paper"))) {
+                System.out.println("You win!");
+            } else {
+                System.out.println("You lose!");
+            }
+
+            System.out.println();  // Add a blank line for better readability
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+}
