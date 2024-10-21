@@ -1,0 +1,61 @@
+from PIL import Image
+
+def change_background_color(image_path, new_background_color, output_path):
+    # Open the image
+    image = Image.open(image_path).convert("RGBA")
+    
+    # Create a new image with the new background color
+    new_background = Image.new("RGBA", image.size, new_background_color)
+
+    # Get the data of the image
+    data = image.getdata()
+
+    # Create a new list to hold modified pixels
+    new_data = []
+    
+    for item in data:
+        # Change pixels that are fully transparent (alpha value of 0)
+        if item[3] == 0:  # Check if the pixel is transparent
+            new_data.append(new_background.getpixel((0, 0)))  # Change to new background color
+        else:
+            new_data.append(item)  # Keep the original pixel
+    
+    # Update the image data
+    image.putdata(new_data)
+    
+    # Save the modified image
+    image.save(output_path, "PNG")
+
+# Color choices
+colors = {
+    "blue": (0, 0, 255, 255),
+    "green": (0, 255, 0, 255),
+    "red": (255, 0, 0, 255),
+    "yellow": (255, 255, 0, 255),
+    "white": (255, 255, 255, 255),
+    "black": (0, 0, 0, 255),
+}
+
+# Example usage
+if __name__ == "__main__":
+    image_path = '/content/person4.png'  # Path to the input image
+    
+    # Display color options
+    print("Select a background color from the following options:")
+    for color in colors:
+        print(color)
+
+    # Get user input for background color
+    selected_color = input("Enter your choice: ").lower()
+
+    # Check if the input color is valid
+    if selected_color in colors:
+        new_background_color = colors[selected_color]
+    else:
+        print("Invalid color choice. Defaulting to white.")
+        new_background_color = colors["white"]
+
+    output_path = 'output_image.png'  # Path to save the output image
+
+    change_background_color(image_path, new_background_color, output_path)
+    print("Background color changed successfully!")
