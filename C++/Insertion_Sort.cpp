@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Function for Insertion Sort
 void insertionSort(int arr[], int n) {
     for (int i = 1; i < n; i++) {
         int key = arr[i];
@@ -15,7 +15,7 @@ void insertionSort(int arr[], int n) {
         arr[j + 1] = key;
     }
 }
-
+// Function to print the array
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
@@ -25,9 +25,11 @@ void printArray(int arr[], int n) {
 
 int main() {
     int n ; 
+    //ask user for size of array
     cout <<  "Enter size of Array: " << endl;
     cin >> n;
     int arr[n];
+    // Take input array from user.
     cout << "Enter the elements in the array : " <<  endl; 
     for (int i = 0; i < n ; i++ )
       {
@@ -36,8 +38,10 @@ int main() {
     cout << "Original array: ";
     printArray(arr, n);
 
+    // Call insertionSort function
     insertionSort(arr, n);
 
+    // Print the Sorted array.
     cout << "Sorted array: ";
     printArray(arr, n);
 
