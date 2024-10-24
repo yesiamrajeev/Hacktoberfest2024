@@ -22,6 +22,20 @@ Hacktoberfest is an annual celebration of open source, organized by DigitalOcean
 
 Follow these steps to get started with contributing to our project.
 
+## 📝 Important Guidelines
+
+Do not delete or modify existing files unnecessarily.
+
+Ensure your files have the correct extensions (e.g., .html, .css, .js).
+
+Place your files inside the appropriate folder structure. Do not add files outside the designated folder.
+
+Be open to feedback and willing to make changes if needed.
+
+Don’t forget to ⭐ star this repository if you like the project!
+
+--- 
+
 ### Step 1: Fork the Repository 🍴
 
 Click the **Fork** button at the top-right corner of this page to create a copy of this repository under your GitHub account.
