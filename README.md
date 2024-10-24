@@ -64,6 +64,11 @@ I will recommend you make a pull request to your own repo which is very very saf
 ```
 To get approval of the pull request much quicker and faster (`Follow Me`)🚀
 ```
+## 🤝 Special Contributor
+| Contributor | Contribution |
+|:-----------:|:------------:|
+| ![Rudra00codes](https://github.com/Rudra00codes.png?size=100) | Helped in creating the **CONTRIBUTION.md** file |
+
 
 <h2 align=center> ✨ Contributors </h2>
 
