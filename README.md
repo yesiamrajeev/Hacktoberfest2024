@@ -1,3 +1,8 @@
+<p align="center"> <b>Hurry Up!!</b></p>
+<p align="center">
+  <img src="https://i.countdownmail.com/3nghwl.gif" style="width:401px;" alt="Countdown to November 1st" />
+</p>
+
 ![Screenshot 2024-10-07 230129](https://github.com/user-attachments/assets/d797279e-e608-4697-ba23-39538d0ebc7d)
 # DSA: Cultivating Knowledge, Fostering Collaboration 👩‍💻
 📌Our aim is to build a website that comprehensively covers algorithms in C++, Java, Python, and other programming languages, along with acknowledging the contributors to this repository.
