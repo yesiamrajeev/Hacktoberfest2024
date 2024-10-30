@@ -1,0 +1,13 @@
+const king1='<div class="piece" id="king"><img src="./pieces/black/king.png" id="king"></div>'
+const queen1='<div class="piece" id="queen"><img src="./pieces/black/queen.png"  id="queen"></div>'
+const rook1='<div class="piece" id="rook"><img src="/pieces/black/rook.png" id="rook"></div>'
+const bishop1='<div class="piece" id="bishop"><img src="./pieces/black/bishop.png" id="bishop"></div>'
+const pawn1='<div class="piece" id="pawn"><img src="./pieces/black/pawn.png" id="pawn"></div>'
+const knight1='<div class="piece" id="knight"><img src="./pieces/black/knight.png" id="knight"></div>'
+
+const king2='<div class="piece" id="king"><img src="./pieces/white/king.png" id="king"></div>'
+const queen2='<div class="piece" id="queen"><img src="./pieces/white/queen.png" id="queen"></div>'
+const rook2='<div class="piece" id="rook"><img src="/pieces/white/rook.png" id="rook"></div>'
+const bishop2='<div class="piece" id="bishop"><img src="./pieces/white/bishop.png" id="bishop"></div>'
+const pawn2='<div class="piece" id="pawn"><img src="./pieces/white/pawn.png" id="pawn"></div>'
+const knight2='<div class="piece" id="knight"><img src="./pieces/white/knight.png" id="knight"></div>'
