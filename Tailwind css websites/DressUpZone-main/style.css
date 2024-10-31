@@ -1,0 +1,76 @@
+.navLinks li{
+    margin: auto 10px !important;
+}
+.navLinks li{
+    margin: auto 10px !important;
+}
+.headerbg{
+    background-image: url('Image/header.jpg');
+    color: black;
+    padding: 30px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.iconContainer{
+    text-align: center;
+}
+.iconContainer i{
+    font-size: 30px;
+    color: white;
+}
+.iconContainer h6{
+    color: white;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.starContainer{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.starContainer span{
+    font-size: 15px;
+    color: orange;
+}
+.starContainer :last-child{
+    color: gray ;
+}
+.carCards img{
+    height: 150px !important;
+    object-fit: cover;
+    width: 100%;
+}
+.carCards p{
+    font-size: 12px;
+    color: gray;
+}
+.carCards{
+    transition: .8s all;
+    cursor: pointer;
+}
+
+.carCards:hover{
+    background: #000;
+}
+.carCards:hover, .carCards h1{
+    color: white;
+}
+
+.carousel-control-prev{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,0) 60%) !important;
+    border-radius: 5px;
+
+}
+.carousel-control-next{
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 60%);
+    border-radius: 5px;
+
+
+}
+.sectionGap{
+    margin: 8rem auto;
+}
+html{
+     scroll-behavior: smooth;
+}
