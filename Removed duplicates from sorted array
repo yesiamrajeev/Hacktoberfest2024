@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] A = new int[N];
+        
+        for (int i = 0; i < N; i++) {
+            A[i] = sc.nextInt();
+        }
+        
+        List<Integer> unique = new ArrayList<>();
+        
+        for (int i = 0; i < N; i++) {
+            
+            if (!unique.contains(A[i])) {
+                unique.add(A[i]);
+            }
+        }
+        
+        
+        System.out.print("Output: ");
+        for (int i=0;i<unique.size();i++) {
+            System.out.print(unique.get(i) + " ");
+        }
+    }
+}
