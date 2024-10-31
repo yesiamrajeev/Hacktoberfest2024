@@ -1,0 +1,19 @@
+#include <stdio.h>  
+#define ARRAY_SIZE 10  
+  
+int main() {  
+    int i;  
+    int largeArray[ARRAY_SIZE];  
+      
+    // Populate the array with values  
+    for (i = 0; i < ARRAY_SIZE; i++) {  
+        largeArray[i] = i;  
+    }  
+  
+    // Print the elements of the array  
+    for (i = 0; i < ARRAY_SIZE; i++) {  
+        printf("largeArray[%d] = %d\n", i, largeArray[i]);  
+    }  
+  
+    return 0;  
+}  
